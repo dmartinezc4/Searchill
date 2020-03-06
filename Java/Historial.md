@@ -1,5 +1,5 @@
 # Diario de developer 
-6-3-2020
+## 6-3-2020
 Todo el codigo subido
 APIs a usar Lucene/biblio para java
 xml de medline a txt, sax para hacer esto
