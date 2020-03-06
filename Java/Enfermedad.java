@@ -1,37 +1,44 @@
-package searchill_code;
-
-import java.util.*;
-import java.awt.Desktop;
-import java.net.*;
-import java.io.IOException;
+ppackage searchill_code;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Vector;
 
 public class Enfermedad {
 	
 	private String nombre;
 	
-	private String url;
+	private Vector<String>URLs;
+	
+	SimpleDateFormat strDateFormat=new SimpleDateFormat("dd-MM-yyyy"); // la fecha se deberá introducir en este formato para que se reconozca. ej: 23-12-2020, 01-02-2018
+	
+	Date probDateIni;
+	
+	Date probDateFin;
 	
 	private Vector<Sintoma>sintomas;
 	
  	private int popularidad;
  	
  	private int prioridad;
- 	
- 	public Vector<Date>fechas;//Estaciones donde es mas propicia esta estación
- 	
- 	public Enfermedad(String nombre, Vector<Sintoma>sintomas) {
+
+ 	public Enfermedad(String nombre, String date1, String date2, Vector<Sintoma>sintomas) throws ParseException {
  		this.nombre=nombre;
  		this.sintomas=sintomas;
  		this.popularidad=0;
  		this.prioridad=0;
+ 		this.probDateIni=strDateFormat.parse(date1);
+ 		this.probDateFin=strDateFormat.parse(date2);
  	}
  	
- 	public Enfermedad(String nombre, Vector<Sintoma>sintomas, String ur) {
+ 	public Enfermedad(String nombre, String date1, String date2, Vector<Sintoma>sintomas, Vector<String>URLs) throws ParseException{
  		this.nombre=nombre;
  		this.sintomas=sintomas;
- 		this.url=ur;
+ 		this.URLs=URLs;
  		this.popularidad=0;
  		this.prioridad=0;
+ 		this.probDateIni=strDateFormat.parse(date1);
+ 		this.probDateFin=strDateFormat.parse(date2);
  	}
  	
 	public String getNombre() {
@@ -42,12 +49,12 @@ public class Enfermedad {
 		this.nombre = nombre;
 	}
 
-	public String getURLs() {
-		return url;
+	public Vector<String> getURLs() {
+		return URLs;
 	}
 
-	public void setURLs(String URLs) {
-		this.url = URLs;
+	public void setURLs(Vector<String> URLs) {
+		this.URLs = URLs;
 	}
 
 	public Vector<Sintoma> getSintomas() {
@@ -73,31 +80,27 @@ public class Enfermedad {
 	public void setPrioridad(int prioridad) {
 		this.prioridad = prioridad;
 	}
-	public String getUrl() {
-		return url;
+	
+	public Date getProbDateIni() {
+		return probDateIni;
+	}
+
+	public void setProbDateIni(Date probDateIn) {
+		this.probDateIni = probDateIn;
+	}
+
+	public Date getProbDateFin() {
+		return probDateFin;
+	}
+
+	public void setProbDateFin(Date probDateEnd) {
+		this.probDateFin = probDateEnd;
+	}
+
+	public SimpleDateFormat getStrDateFormat() {
+		return strDateFormat;
 	}
 	
-	public void setUrl(String url) {
-		this.url = url;
-	}
-
-	public Vector<Date> getFechas() {
-		return fechas;
-	}
-
-	public void setFechas(Vector<Date> fechas) {
-		this.fechas = fechas;
-	}
-
-	public Enfermedad(String nombre) {
- 		this.nombre=nombre;
- 		this.popularidad=0;
- 		this.prioridad=0;
- 	}
-	
-	public void addDate(Date f) {
-		fechas.add(f);
-	}
  	public int initializePoints() {
  		int i=0;
  		for (Sintoma s: sintomas) {
@@ -111,14 +114,11 @@ public class Enfermedad {
  			s.increasePuntos();
  		}
  	}
- 	public void openURL() {
- 		if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
- 		    try{
- 		    	Desktop.getDesktop().browse(new URI(url));
- 		    }catch(IOException | URISyntaxException e){
- 		    	e.printStackTrace();
- 		    }
- 		}
- 	}
-	
+	public void buscarSintoma(Vector<Sintoma>sintomas) {
+		for(Sintoma s: sintomas) {
+			for(Sintoma t: this.sintomas) {
+				if (s == t) prioridad ++;
+			}
+		}
+	}
 }
