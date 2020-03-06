@@ -1,12 +1,15 @@
 package searchill_code;
 
-import java.util.Vector;
+import java.util.*;
+import java.awt.Desktop;
+import java.net.*;
+import java.io.IOException;
 
 public class Enfermedad {
 	
 	private String nombre;
 	
-	private Vector<String>URLs;
+	private String url;
 	
 	private Vector<Sintoma>sintomas;
 	
@@ -14,12 +17,8 @@ public class Enfermedad {
  	
  	private int prioridad;
  	
- 	public Enfermedad(String nombre) {
- 		this.nombre=nombre;
- 		this.popularidad=0;
- 		this.prioridad=0;
- 	}
-
+ 	public Vector<Date>fechas;//Estaciones donde es mas propicia esta estación
+ 	
  	public Enfermedad(String nombre, Vector<Sintoma>sintomas) {
  		this.nombre=nombre;
  		this.sintomas=sintomas;
@@ -27,10 +26,10 @@ public class Enfermedad {
  		this.prioridad=0;
  	}
  	
- 	public Enfermedad(String nombre, Vector<Sintoma>sintomas, Vector<String>URLs) {
+ 	public Enfermedad(String nombre, Vector<Sintoma>sintomas, String ur) {
  		this.nombre=nombre;
  		this.sintomas=sintomas;
- 		this.URLs=URLs;
+ 		this.url=ur;
  		this.popularidad=0;
  		this.prioridad=0;
  	}
@@ -43,12 +42,12 @@ public class Enfermedad {
 		this.nombre = nombre;
 	}
 
-	public Vector<String> getURLs() {
-		return URLs;
+	public String getURLs() {
+		return url;
 	}
 
-	public void setURLs(Vector<String> URLs) {
-		this.URLs = URLs;
+	public void setURLs(String URLs) {
+		this.url = URLs;
 	}
 
 	public Vector<Sintoma> getSintomas() {
@@ -74,7 +73,31 @@ public class Enfermedad {
 	public void setPrioridad(int prioridad) {
 		this.prioridad = prioridad;
 	}
+	public String getUrl() {
+		return url;
+	}
 	
+	public void setUrl(String url) {
+		this.url = url;
+	}
+
+	public Vector<Date> getFechas() {
+		return fechas;
+	}
+
+	public void setFechas(Vector<Date> fechas) {
+		this.fechas = fechas;
+	}
+
+	public Enfermedad(String nombre) {
+ 		this.nombre=nombre;
+ 		this.popularidad=0;
+ 		this.prioridad=0;
+ 	}
+	
+	public void addDate(Date f) {
+		fechas.add(f);
+	}
  	public int initializePoints() {
  		int i=0;
  		for (Sintoma s: sintomas) {
@@ -86,6 +109,15 @@ public class Enfermedad {
  	public void voteUp(Vector<Sintoma>buscados){
  		for (Sintoma s: sintomas) {
  			s.increasePuntos();
+ 		}
+ 	}
+ 	public void openURL() {
+ 		if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
+ 		    try{
+ 		    	Desktop.getDesktop().browse(new URI(url));
+ 		    }catch(IOException | URISyntaxException e){
+ 		    	e.printStackTrace();
+ 		    }
  		}
  	}
 	
