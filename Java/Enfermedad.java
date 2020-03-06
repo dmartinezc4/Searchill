@@ -1,4 +1,4 @@
-ppackage searchill_code;
+package searchill_code;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,7 +10,7 @@ public class Enfermedad {
 	
 	private Vector<String>URLs;
 	
-	SimpleDateFormat strDateFormat=new SimpleDateFormat("dd-MM-yyyy"); // la fecha se deberá introducir en este formato para que se reconozca. ej: 23-12-2020, 01-02-2018
+	SimpleDateFormat strDateFormat=new SimpleDateFormat("dd-MM"); // la fecha se deberá introducir en este formato para que se reconozca. ej: 23-12, 01-02
 	
 	Date probDateIni;
 	
