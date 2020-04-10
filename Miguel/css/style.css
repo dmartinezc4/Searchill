@@ -121,6 +121,11 @@ a:active{
     box-sizing: border-box;
 }
 
+#results-section{
+    float: right;
+    padding-top: 30px;
+}
+
 #main-footer{
     position: absolute;
     bottom: 0;
