@@ -121,6 +121,10 @@ a:active{
     box-sizing: border-box;
 }
 
+#results-section{
+    padding-top: 30px;
+}
+
 #main-footer{
     position: absolute;
     bottom: 0;
