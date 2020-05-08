@@ -2,7 +2,7 @@ var resultList = document.getElementById('results');
 var filter = document.getElementById('search-input');
 var searcher = document.getElementById('search-form');
 
-// filter.addEventListener('keyup', filterItems);
+filter.addEventListener('keyup', filterItems);
 searcher.addEventListener('submit', addItem);
 
 // coger los datos de MedlinePlus API
