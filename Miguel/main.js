@@ -66,6 +66,96 @@ const coagulos_sanguineos = 'https://connect.medlineplus.gov/service?mainSearchC
 const varices = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=454&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
 const hemorroides = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=455&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
 const hipotension = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=458&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+/*alberto*/
+const neoplasma_labial = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=140&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_lengua = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=141&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+
+const neoplasma_de_glándulas_salivares = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=142&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_encia = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=143&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_del_paladar = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=144&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_bucal_no_especificado = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=145&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_orofaringe = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=146&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_nasofaringe = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=147&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_hipofaringe = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=148&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_oral_no_definido = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=149&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+
+const neoplasma_de_esófago = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=150&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_estómago = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=151&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_del_intestino_delgado = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=152&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_colon = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=153&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_del_recto_intestinal = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=154&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es'; 
+const neoplasma_del_hígado = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=155&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_la_vesícula_biliar = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=156&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_páncreas = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=157&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_retroperitoneo_y_peritoneo = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=158&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_digestivo_no_definido = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=159&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+
+const neoplasma_nasal_y_del_oido = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=160&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_laringe = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=161&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_tráquea_brónquios_y_pulmón = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=162&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_la_pleura = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=163&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_corazón = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=164&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_intratorácico_y_respiratorio_indefinido = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=165&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+
+const neoplasma_del_hueso = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=170&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_del_tejido_blando = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=171&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_la_piel = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=172&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_diferente_de_la_piel = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=173&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_del_pecho_femenino = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=174&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_del_pecho_masculino = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=175&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const sarcoma_de_Kaposi = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=176&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+
+const neoplasma_del_útero = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=179&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_del_cérvix = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=180&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_placenta = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=181&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_del_cuerpo_uterino = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=182&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_del_ovario = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=183&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_los_genitales_femeninos = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=184&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_próstata = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=185&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_testículo = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=186&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_pene = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=187&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_vejiga = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=188&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_los_órganos_urinarios = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=189&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+
+const neoplasma_de_ojo = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=190&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_cerebro = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=191&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_del_sistema_nervioso = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=192&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_la_glándula_tiroides = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=193&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_glándulas_endocrinas = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=194&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_sitio_no_definido = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=195&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_ganglios_linfáticos = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=196&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_respiratorio_y_digestivo = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=197&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_de_sitios_no_especificados = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=198&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+
+const linfosarcoma = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=200&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const Hodgkin = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=201&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_linfático = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=202&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const melanoma = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=203&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const leucemia_linfática = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=204&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const leucemia_mieloide = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=205&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const leucemia_monocítica = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=206&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const otra_leucemia = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=207&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const leucemia_de_célula_no_especificada = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=208&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+
+const tumor_neuroendocrino = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=209&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+
+const neoplasma_benigno_de_útero = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=219&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_benigno_de_ovario = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=220&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_benigno_de_genitales_femeninos = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=221&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_benigno_de_genitales_maculinos = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=222&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_benigno_urinario = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=223&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_benigno_ocular = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=224&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_benigno_cerebral = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=225&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_benigno_de_la_glándula_tiroides = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=226&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_benigno_de_glándulas_endocrinas = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=227&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const linfangioma_y_hemangioma = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=228&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const neoplasma_benigno = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=229&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+
+const carcinoma_digestivo = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=230&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const carcinoma_respiratorio = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=231&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const carcinoma_de_piel = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=232&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const carcinoma_genitourinario = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=233&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const carcinoma = 'https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=234&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
 
 /*marcos*/
 const Enfermedades_tiroides ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=240&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
@@ -866,6 +956,480 @@ async function getData(enfermedad){
         return illnessData;
     }else if(enfermedad === 'Hipotension'){
         const response = await fetch(hipotension);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma labial'){
+        const response = await fetch(neoplasma_labial);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de lengua'){
+        const response = await fetch(neoplasma_de_lengua);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de glándulas salivares'){
+        const response = await fetch(neoplasma_de_glándulas_salivares);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de encia'){
+        const response = await fetch(neoplasma_de_encia);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma del paladar'){
+        const response = await fetch(neoplasma_del_paladar);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma bucal no especificado'){
+        const response = await fetch(neoplasma_bucal_no_especificado);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de orofaringe'){
+        const response = await fetch(neoplasma_de_orofaringe);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de nasofaringe'){
+        const response = await fetch(neoplasma_de_nasofaringe);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de hipofaringe'){
+        const response = await fetch(neoplasma_de_hipofaringe);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma oral no definido'){
+        const response = await fetch(neoplasma_oral_no_definido);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de esófago'){
+        const response = await fetch(neoplasma_de_esófago);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de estómago'){
+        const response = await fetch(neoplasma_de_estómago);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma del instestino delgado'){
+        const response = await fetch(neoplasma_del_intestino_delgado);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de colon'){
+        const response = await fetch(neoplasma_de_colon);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma del recto intestinal'){
+        const response = await fetch(neoplasma_del_recto_intestinal);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma del hígado'){
+        const response = await fetch(neoplasma_del_hígado);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de la vesícula biliar'){
+        const response = await fetch(neoplasma_de_la_vesícula_biliar);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de páncreas'){
+        const response = await fetch(neoplasma_de_páncreas);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de retroperitoneo y peritoneo'){
+        const response = await fetch(neoplasma_de_retroperitoneo_y_peritoneo);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma digestivo no definido'){
+        const response = await fetch(neoplasma_digestivo_no_definido);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma nasal y del oido'){
+        const response = await fetch(neoplasma_nasal_y_del_oido);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de laringe'){
+        const response = await fetch(neoplasma_de_laringe);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de tráquea brónquios y pulmón'){
+        const response = await fetch(neoplasma_de_tráquea_brónquios_y_pulmón);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de la pleura'){
+        const response = await fetch(neoplasma_de_la_pleura);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de corazón'){
+        const response = await fetch(neoplasma_de_corazón);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma intratorácico y respiratorio indefinido'){
+        const response = await fetch(neoplasma_intratorácico_y_respiratorio_indefinido);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma del hueso'){
+        const response = await fetch(neoplasma_del_hueso);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma del tejido blando'){
+        const response = await fetch(neoplasma_del_tejido_blando);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de la piel'){
+        const response = await fetch(neoplasma_de_la_piel);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma diferente de la piel'){
+        const response = await fetch(neoplasma_diferente_de_la_piel);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma del pecho femenino'){
+        const response = await fetch(neoplasma_del_pecho_femenino);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma del pecho masculino'){
+        const response = await fetch(neoplasma_del_pecho_masculino);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Narcoma de Kaposi'){
+        const response = await fetch(sarcoma_de_Kaposi);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma del útero'){
+        const response = await fetch(neoplasma_del_útero);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma del cérvix'){
+        const response = await fetch(neoplasma_del_cérvix);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de placenta'){
+        const response = await fetch(neoplasma_de_placenta);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma del cuello uterino'){
+        const response = await fetch(neoplasma_del_cuello_uterino);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma del ovario'){
+        const response = await fetch(neoplasma_del_ovario);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de los genitales femeninos'){
+        const response = await fetch(neoplasma_de_los_genitales_femeninos);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de próstata'){
+        const response = await fetch(neoplasma_de_próstata);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de testículo'){
+        const response = await fetch(neoplasma_de_testículo);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de pene'){
+        const response = await fetch(neoplasma_de_pene);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de vejiga'){
+        const response = await fetch(neoplasma_de_vejiga);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de los órganos urinarios'){
+        const response = await fetch(neoplasma_de_los_órganos_urinarios);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de ojo'){
+        const response = await fetch(neoplasma_de_ojo);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de cerebro'){
+        const response = await fetch(neoplasma_de_cerebro);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma del sistema nervioso'){
+        const response = await fetch(neoplasma_del_sistema_nervioso);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de la glándula tiroides'){
+        const response = await fetch(neoplasma_de_la_glándula_tiroides);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de glándulas endocrinas'){
+        const response = await fetch(neoplasma_de_glándulas_endocrinas);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de sitio no definido'){
+        const response = await fetch(neoplasma_de_sitio_no_definido);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'neoplasma_de_ganglios_linfáticos'){
+        const response = await fetch(neoplasma_de_ganglios_linfáticos);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma respiratorio y digestivo'){
+        const response = await fetch(neoplasma_respiratorio_y_digestivo);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma de sitios no especificados'){
+        const response = await fetch(neoplasma_de_sitios_no_especificados);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Linfosarcoma'){
+        const response = await fetch(linfosarcoma);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Hodgkin'){
+        const response = await fetch(Hodgkin);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma linfático'){
+        const response = await fetch(neoplasma_linfático);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Melanoma'){
+        const response = await fetch(melanoma);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Leucemia linfática'){
+        const response = await fetch(leucemia_linfática);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Leucemia mieloide'){
+        const response = await fetch(leucemia_mieloide);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Leucemia monocítica'){
+        const response = await fetch(leucemia_monocítica);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Otra leucemia'){
+        const response = await fetch(otra_leucemia);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Leucemia de célula no especificada'){
+        const response = await fetch(leucemia_de_célula_no_especificada);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Tumor neuroendocrino'){
+        const response = await fetch(tumor_neuroendocrino);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma benigno de útero'){
+        const response = await fetch(neoplasma_benigno_de_útero);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma benigno de ovario'){
+        const response = await fetch(neoplasma_benigno_de_ovario);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma benigno de genitales femeninos'){
+        const response = await fetch(neoplasma_benigno_de_genitales_femeninos);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma benigno de genitales masculinos'){
+        const response = await fetch(neoplasma_benigno_de_genitales_masculinos);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma benigno urinario'){
+        const response = await fetch(neoplasma_benigno_urinario);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma benigno ocular'){
+        const response = await fetch(neoplasma_benigno_ocular);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'neoplasma benigno cerebral'){
+        const response = await fetch(neoplasma_benigno_cerebral);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma benigno de la glándula tiroides'){
+        const response = await fetch(neoplasma_benigno_de_la_glándula_tiroides);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma benigno de glándulas endocrinas'){
+        const response = await fetch(neoplasma_benigno_de_glándulas_endocrinas);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Linfangioma y hemangioma'){
+        const response = await fetch(limfangioma_y_hemangioma);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Neoplasma benigno'){
+        const response = await fetch(neoplasma_benigno);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Carcinoma digestivo'){
+        const response = await fetch(carcinoma_digestivo);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Carcinoma respiratorio'){
+        const response = await fetch(carcinoma_respiratorio);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Carcinoma de piel'){
+        const response = await fetch(carcinoma_de_piel);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Carcinoma genitourinario'){
+        const response = await fetch(carcinoma_genitourinario);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
+    }else if(enfermedad === 'Carcinoma'){
+        const response = await fetch(carcinoma);
         const data = await response.json();
         var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
             substring(0, 200).replace("<p>", " ").concat("..."));
