@@ -101,11 +101,11 @@ async function getData(enfermedad){
             substring(0, 200).replace("<p>", " ").concat("..."));
         return illnessData;
     }else if(enfermedad === 'Tiroides'){
-            const response = await fetch(Enfermedades_tiroides);
-            const data = await response.json();
-            var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
-                substring(0, 200).replace("<p>", " ").concat("..."));
-            return illnessData;
+        const response = await fetch(Enfermedades_tiroides);
+        const data = await response.json();
+        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+            substring(0, 200).replace("<p>", " ").concat("..."));
+        return illnessData;
     }else if(enfermedad === 'Hipertiroidismo'){
             const response = await fetch(Hipertiroidismo);
             const data = await response.json();
@@ -516,13 +516,14 @@ async function getData(enfermedad){
             var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
                 substring(0, 200).replace("<p>", " ").concat("..."));
             return illnessData;
+    }
 }
 
 // addItem se hara con la API
 function addItem(e){
     e.preventDefault();
 
-    var to_search = filter.value.toLowerCase();
+    var to_search = filter.value;
 
     const promise1 = Promise.resolve(getData(to_search));
     var newItem = promise1.then(function(value){
