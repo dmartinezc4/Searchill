@@ -1,19 +1,23 @@
 # Searchill
 
-Este será el nombre final de la aplicación.
-Las carpetas serán organizadas para los tres básicos
-## Base de datos
-
-Todo lo que sea de base de datos, informacion y documentacion por aquí
+Nombre de la aplicacion
 
 ## Java
 
-Todo lo que sea de java, informacion y documentacion por aquí
+Codigo de Java que ha quedado inservible al no poder conectar la aplicacion a la base de datos
 
-## HTML/CSS
+## Codigo
 
-Todo lo que sea de HTML, informacion y documentacion por aquí
+Codigo final utilizado para la aplicacion de Searchill, contiene HTML, css y javascript
 
 ### Historial
 
-Cada division del repositorio contiene uno para llevar una especie de diario de lo que se ha hecho cada dia en caso de que sea mencionable
+3/5, se han subido los archivos necesarios para ejecutar el codigo y poder realizar la aplicacion de Searchill
+
+
+### Miembros
+Miguel Carballo
+Marcos Gago
+David Martínez
+Alberto Meneses
+Esteban Vidiella
