@@ -1,3 +1,3 @@
 # Java
 
-Codigo de java, documentacion, pasos y demás.
+Codigo, documentacion, pasos.
