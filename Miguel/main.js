@@ -257,7 +257,7 @@ const gangrena ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs
 const streptococo ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=041&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
 const sida ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=042&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
 const polio ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=045&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
-const creutzfeldt-jakob ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=046&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const creutzfeldt_jakob ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=046&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
 const meningitis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=047&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
 const viruela ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=050&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
 const varicela ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=052&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
@@ -1680,7 +1680,7 @@ async function getData(enfermedad){
 	            substring(0, 200).replace("<p>", " ").concat("..."));
 	        return illnessData;
     }else if(enfermedad === 'creutzfeldt-jakob'){
-	        const response = await fetch(creutzfeldt-jakob);
+	        const response = await fetch(creutzfeldt_jakob);
 	        const data = await response.json();
 	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
 	            substring(0, 200).replace("<p>", " ").concat("..."));
