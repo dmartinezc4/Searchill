@@ -187,7 +187,7 @@ async function getData(enfermedad){
                 substring(0, 200).replace("<p>", " ").concat("..."));
             return illnessData;
     }else if(enfermedad === 'Equilibrio hidroelectrolitico'){
-            const response = await fetch(Equilibrio hidroelectrolítico);
+            const response = await fetch(Equilibrio_hidroelectrolítico);
             const data = await response.json();
             var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
                 substring(0, 200).replace("<p>", " ").concat("..."));
