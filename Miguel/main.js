@@ -228,6 +228,77 @@ const Trastornos_pleurales ='https://connect.medlineplus.gov/service?mainSearchC
 const Colapso_pulmonar ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=512&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
 const Fibrosis_pulmonar ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=515&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
 
+/*Esteban*/
+const colera ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=001&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const salmonela ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=002&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const shigelosis='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=004&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const botulismo='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=005&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const amebiasis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=006&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const gastroenteritis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=008&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const tuberculosis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=010&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const peste ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=020&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const tularemia ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=021&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const antrax ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=022&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const brucelosis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=023&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const glanders ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=024&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const melioidosis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=025&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const spirillary ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=026&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const listeriosis='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=027&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const lepra ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=030&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const difteria ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=032&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const tos ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=033&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const garganta ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=034&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const erysipelas ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=035&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const meningoc ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=036&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const tetanos='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=037&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const sepsis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=038&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const actinomicotico ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=039&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const gangrena ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=040&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const streptococo ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=041&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const sida ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=042&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const polio ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=045&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const creutzfeldt-jakob ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=046&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const meningitis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=047&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const viruela ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=050&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const varicela ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=052&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const herpes ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=053&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const sarampion ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=-055&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const rubeola ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=056&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const fiebre_amarilla ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=060&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const dengue ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=061&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const encefalitis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=062&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const hepatitis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=070&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const rabia ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=071&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const paperas ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=072&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const ornitosis='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=073&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const herpangina ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=074&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const mononucleosis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=075&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const clamidia='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=076&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const conjuntivitis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=077&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const tifus ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=080&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const malaria='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=084&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const leishmaniasis='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=085&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const trypanosomiasis='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=086&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const fiebre='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=087&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const sifilis='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=090&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const leptospirosis='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=100&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const anginas ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=101&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const frambesia ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=102&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const pinta='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=103&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const dermatofitosis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=110&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const candidiasis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=112&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const fiebre_del_valle ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=114&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const histoplasmosis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=115&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const hongos ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=116&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const bilharziasis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=120&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const opistorquiasis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=121&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const equinococosis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=122&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const triquinosis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=124&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const toxoplasmosis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=130&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const tricomoniasis='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=131&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const piojos ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=132&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const acariasis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=133&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
+const sarcoidosis ='https://connect.medlineplus.gov/service?mainSearchCriteria.v.cs=2.16.840.1.113883.6.103&mainSearchCriteria.v.c=135&knowledgeResponseType=application/json&informationRecipient.languageCode.c=es';
 
 
 function illness(link, description){
@@ -1434,6 +1505,432 @@ async function getData(enfermedad){
         var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
             substring(0, 200).replace("<p>", " ").concat("..."));
         return illnessData;
+    }else if(enfermedad === 'cólera'){
+	        const response = await fetch(colera);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	     return illnessData;
+    }else if(enfermedad === 'salmonela'){
+	        const response = await fetch(salmonela);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'shigelosis'){
+	        const response = await fetch(shigelosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'botulismo'){
+	        const response = await fetch(botulismo);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'amebiasis'){
+	        const response = await fetch(amebiasis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'gastroenteritis'){
+	        const response = await fetch(gastroenteritis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'tuberculosis'){
+	        const response = await fetch(tuberculosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'peste'){
+	        const response = await fetch(peste);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'tularemia'){
+	        const response = await fetch(tularemia);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'ántrax'){
+	        const response = await fetch(antrax);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'brucelosis'){
+	        const response = await fetch(brucelosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'glanders'){
+	        const response = await fetch(glanders);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'melioidosis'){
+	        const response = await fetch(melioidosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'spirillary'){
+	        const response = await fetch(spirially);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'brucelosis'){
+	        const response = await fetch(brucelosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'listeriosis'){
+	        const response = await fetch(listeriosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'lepra'){
+	        const response = await fetch(lepra);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'difteria'){
+	        const response = await fetch(difteria);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'tos'){
+	        const response = await fetch(tos);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'garganta'){
+	        const response = await fetch(garganta);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'erysipelas'){
+	        const response = await fetch(erysipelas);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'meningoc'){
+	        const response = await fetch(meningoc);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'tétanos'){
+	        const response = await fetch(tetanos);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'sepsis'){
+	        const response = await fetch(sepsis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'actinomicótico'){
+	        const response = await fetch(actinomicotico);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'gangrena'){
+	        const response = await fetch(gangrena);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'streptococo'){
+	        const response = await fetch(streptococo);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'sida'){
+	        const response = await fetch(sida);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'polio'){
+	        const response = await fetch(polio);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'creutzfeldt-jakob'){
+	        const response = await fetch(creutzfeldt-jakob);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'meningitis'){
+	        const response = await fetch(meningitis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'viruela'){
+	        const response = await fetch(viruela);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'varicela'){
+	        const response = await fetch(varicela);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'herpes'){
+	        const response = await fetch(herpes);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'sarampión'){
+	        const response = await fetch(sarampion);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'rubéola'){
+	        const response = await fetch(rubeola);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'fiebre amarilla'){
+	        const response = await fetch(fiebre_amarilla);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'dengue'){
+	        const response = await fetch(dengue);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'encefalitis'){
+	        const response = await fetch(encefalitis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'hepatitis'){
+	        const response = await fetch(hepatitis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'rabia'){
+	        const response = await fetch(rabia);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'paperas'){
+	        const response = await fetch(paperas);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'ornitosis'){
+	        const response = await fetch(ornitosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'herpangina'){
+	        const response = await fetch(herpangina);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'mononucleosis'){
+	        const response = await fetch(mononucleosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'clamidia'){
+	        const response = await fetch(clamidia);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'conjuntivitis'){
+	        const response = await fetch(conjuntivitis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'tifus'){
+	        const response = await fetch(tifus);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'malaria'){
+	        const response = await fetch(malaria);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'leishmaniasis'){
+	        const response = await fetch(leishmaniasis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'trypanosomiasis'){
+	        const response = await fetch(tryoanosomiasis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'fiebre'){
+	        const response = await fetch(fiebre);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'sifilis'){
+	        const response = await fetch(sifilis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'leptospirosis'){
+	        const response = await fetch(leptospirosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'anginas'){
+	        const response = await fetch(anginas);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'frambesia'){
+	        const response = await fetch(frambesia);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'pinta'){
+	        const response = await fetch(pinta);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'dermatofitosis'){
+	        const response = await fetch(dermatofitosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'candidiasis'){
+	        const response = await fetch(candidiasis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'fiebre del valle'){
+	        const response = await fetch(fiebre_del_valle);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'histoplasmosis'){
+	        const response = await fetch(histoplasmosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'hongos'){
+	        const response = await fetch(hongos);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'bilharziasis'){
+	        const response = await fetch(bilharziasis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'opistorquiasis'){
+	        const response = await fetch(opistorquiasis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'equinococosis'){
+	        const response = await fetch(equinococosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'triquinosis'){
+	        const response = await fetch(triquinosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'toxoplasmosis'){
+	        const response = await fetch(toxoplasmosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'tricomoniasis'){
+	        const response = await fetch(tricomoniasis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'piojos'){
+	        const response = await fetch(piojos);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'acariasis'){
+	        const response = await fetch(acariasis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
+    }else if(enfermedad === 'sarcoidosis'){
+	        const response = await fetch(sarcoidosis);
+	        const data = await response.json();
+	        var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
+	            substring(0, 200).replace("<p>", " ").concat("..."));
+	        return illnessData;
     }
 }
 
