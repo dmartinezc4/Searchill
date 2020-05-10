@@ -138,7 +138,7 @@ async function getData(enfermedad){
                 substring(0, 200).replace("<p>", " ").concat("..."));
             return illnessData;
     }else if(enfermedad === 'Enfermedades_ovarios'){
-            const response = await fetch(Enfermedades de los ovarios);
+            const response = await fetch(Enfermedades_ovarios);
             const data = await response.json();
             var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
                 substring(0, 200).replace("<p>", " ").concat("..."));
@@ -295,7 +295,7 @@ async function getData(enfermedad){
                 substring(0, 200).replace("<p>", " ").concat("..."));
             return illnessData;
     }else if(enfermedad === 'Cerebro'){
-            const response = await fetch(Enfermedade_cerebro);
+            const response = await fetch(Enfermedades_cerebro);
             const data = await response.json();
             var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
                 substring(0, 200).replace("<p>", " ").concat("..."));
@@ -312,8 +312,8 @@ async function getData(enfermedad){
             var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
                 substring(0, 200).replace("<p>", " ").concat("..."));
             return illnessData;
-    }else if(enfermedad === 'Sistema_nervioso_periferico'){
-            const response = await fetch(Enfermedades del sistema nervioso periférico);
+    }else if(enfermedad === 'Enfermedades del sistema nervioso periférico'){
+            const response = await fetch(Sistema_nervioso_periferico);
             const data = await response.json();
             var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
                 substring(0, 200).replace("<p>", " ").concat("..."));
@@ -432,8 +432,8 @@ async function getData(enfermedad){
             var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
                 substring(0, 200).replace("<p>", " ").concat("..."));
             return illnessData;
-    }else if(enfermedad === 'Enfermedades_garganta'){
-            const response = await fetch(Lesiones y enfermedades de la nariz);
+    }else if(enfermedad === 'Garganta'){
+            const response = await fetch(Enfermedades_garganta);
             const data = await response.json();
             var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
                 substring(0, 200).replace("<p>", " ").concat("..."));
@@ -499,7 +499,7 @@ async function getData(enfermedad){
                 substring(0, 200).replace("<p>", " ").concat("..."));
             return illnessData;
     }else if(enfermedad === 'Trastornos pleurales'){
-            const response = await fetch(Trastornos pleurales);
+            const response = await fetch(Trastornos_pleurales);
             const data = await response.json();
             var illnessData = illness(data.feed.entry[0].link[0].href, data.feed.entry[0].summary._value.
                 substring(0, 200).replace("<p>", " ").concat("..."));
